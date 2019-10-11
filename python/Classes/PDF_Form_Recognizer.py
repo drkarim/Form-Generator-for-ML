@@ -131,7 +131,7 @@ class PDF_Form_Recognizer:
                 {NameObject("/NeedAppearances"): BooleanObject(True)})
         return pdf_writer
 
-        def save_new_pdf(input_pdf, 
+    def save_new_pdf(input_pdf, 
                         outfile="out.pdf",
                         field_dictionary = {"f_1[0]": "Value1", "f_2[0]": "Value2"}):
         inputStream = open(input_pdf, "rb")
