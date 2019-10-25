@@ -1,5 +1,6 @@
 
 
+from HandwritingRNN import Hand
 
 hand = Hand()
 

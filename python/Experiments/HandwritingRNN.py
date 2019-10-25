@@ -5,8 +5,9 @@ import logging
 import numpy as np
 import svgwrite
 
-import drawing
-import lyrics
+
+from python.libraries.handwriting import drawing
+from python.libraries.handwriting import lyrics
 from rnn import rnn
 
 import random
